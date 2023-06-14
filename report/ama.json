@@ -1,0 +1,377 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "to validate login with valid username and invalid password",
+        "description": "",
+        "id": "to-validate-the-amazon-application-login-functionality;to-validate-login-with-valid-username-and-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3379327200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "to launch chrome browser and maximize the window",
+            "match": {
+              "location": "Icic.to_launch_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3326501300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "to launch the url of amazon application",
+            "match": {
+              "location": "Icic.to_launch_the_url_of_amazon_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 156044800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "to pass valid username in email field",
+            "match": {
+              "location": "Icic.to_pass_valid_username_in_email_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74898800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "to pass invalid password in password field",
+            "match": {
+              "location": "Icic.to_pass_invalid_password_in_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113362600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "to click the login button",
+            "match": {
+              "location": "Icic.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148043900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close the browser",
+            "match": {
+              "location": "Icic.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "",
+        "description": "",
+        "id": "to-validate-the-amazon-application-login-functionality;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1935628700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "to launch the chrome browser and mximize the window",
+            "match": {
+              "location": "AnotherClass.to_launch_the_chrome_browser_and_mximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3442072400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "to launch the url of amazon application",
+            "match": {
+              "location": "Icic.to_launch_the_url_of_amazon_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145487500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "to pass username\"vimalraj\" in email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vimalraj\"",
+                  "offset": 16
+                }
+              ],
+              "location": "AnotherClass.to_pass_username_in_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75925800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "to pass password \"12345\"in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 17
+                }
+              ],
+              "location": "AnotherClass.to_pass_password_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113215100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "to click the login button",
+            "match": {
+              "location": "Icic.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153364500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Close the browser",
+            "match": {
+              "location": "AnotherClass.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "",
+        "description": "",
+        "id": "to-validate-the-amazon-application-login-functionality;;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1729326900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "to launch the chrome browser and mximize the window",
+            "match": {
+              "location": "AnotherClass.to_launch_the_chrome_browser_and_mximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2320891700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "to launch the url of amazon application",
+            "match": {
+              "location": "Icic.to_launch_the_url_of_amazon_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 416609300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "to pass username\"manju\" in email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manju\"",
+                  "offset": 16
+                }
+              ],
+              "location": "AnotherClass.to_pass_username_in_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109608200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "to pass password \"12345\"in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 17
+                }
+              ],
+              "location": "AnotherClass.to_pass_password_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160496900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "to click the login button",
+            "match": {
+              "location": "Icic.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161371200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Close the browser",
+            "match": {
+              "location": "AnotherClass.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "",
+        "description": "",
+        "id": "to-validate-the-amazon-application-login-functionality;;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2109317700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "to launch the chrome browser and mximize the window",
+            "match": {
+              "location": "AnotherClass.to_launch_the_chrome_browser_and_mximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2421125200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "to launch the url of amazon application",
+            "match": {
+              "location": "Icic.to_launch_the_url_of_amazon_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113724000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "to pass username\"R jeeva\" in email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"R jeeva\"",
+                  "offset": 16
+                }
+              ],
+              "location": "AnotherClass.to_pass_username_in_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82998200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "to pass password \"sathyanatharaj\"in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sathyanatharaj\"",
+                  "offset": 17
+                }
+              ],
+              "location": "AnotherClass.to_pass_password_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117282000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "to click the login button",
+            "match": {
+              "location": "Icic.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142181400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Close the browser",
+            "match": {
+              "location": "AnotherClass.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "to validate the amazon application login functionality",
+    "description": "",
+    "id": "to-validate-the-amazon-application-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/icic.feature",
+    "tags": []
+  }
+]
